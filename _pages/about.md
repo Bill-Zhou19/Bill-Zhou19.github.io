@@ -15,5 +15,5 @@ I am a Ph.D. student in the School of Systems Science and Industrial Engineering
 
 ## Links
 - Google Scholar: https://scholar.google.com/citations?user=7Le7zYAAAAAJ&hl=en  
-- LinkedIn: https://www.linkedin.com/feed/  
+- LinkedIn: https://www.linkedin.com/in/jianming-zhou-75880a337/
 - Email: jzhou39@binghamton.edu
