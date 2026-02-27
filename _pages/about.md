@@ -4,7 +4,7 @@ permalink: /
 author_profile: true
 ---
 
-Ph.D. student in the School of Systems Science and Industrial Engineering at Binghamton University (SUNY). I develop and integrate **extrusion-based additive manufacturing (EAM)** processes, translating new process concepts into robust, scalable manufacturing solutions. My work spans **solvent-free lithium-ion battery electrode manufacturing**, **EAM of continuous CFRP composites**, and **EAM of tungsten-based alloys** to study **process–microstructure–property** relationships. I combine hands-on experimentation with modeling and DOE-driven optimization, and I’ve contributed to research outputs including patent disclosures and conference publications. I’m always open to collaborations in advanced manufacturing and process development.
+I am a Ph.D. student in the School of Systems Science and Industrial Engineering at Binghamton University (SUNY). I develop and integrate **extrusion-based additive manufacturing (EAM)** processes, translating new process concepts into robust, scalable manufacturing solutions. My work spans **solvent-free lithium-ion battery electrode manufacturing**, **EAM of continuous CFRP composites**, and **EAM of tungsten-based alloys** to study **process–microstructure–property** relationships. I combine hands-on experimentation with modeling and DOE-driven optimization, and I’ve contributed to research outputs including patent disclosures and conference publications. I’m always open to collaborations in advanced manufacturing and process development.
 
 ## Research Interests
 - Extrusion-based additive manufacturing (EAM) process development and system integration  
