@@ -102,6 +102,7 @@ h1{font-size:clamp(44px,5.4vw,66px);line-height:1.12;letter-spacing:-.045em;marg
 
 /* Readable Arial text and consistent publication heading hierarchy. */
 .paper .paper-title{font:400 22px/1.5 Arial,Helvetica,sans-serif;letter-spacing:-.015em;margin:0 0 10px}
+.paper .paper-authors strong{font-size:inherit;font-weight:700;color:var(--ink);text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:3px}
 @media screen{
   body{font-size:16px}
   .cv-date{font-size:15px;line-height:1.8}
