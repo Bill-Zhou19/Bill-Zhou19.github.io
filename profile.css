@@ -107,3 +107,5 @@ h1{font-size:clamp(44px,5.4vw,66px);line-height:1.12;letter-spacing:-.045em;marg
 .paper-authors,.paper-venue{font-size:14px}
 @media(max-width:700px){.paper .paper-title{font-size:19px}.cv-record h3{font-size:16px}.cv-detail,.cv-bullets,.skills-list dd,.patent-list,.paper-authors,.paper-venue{font-size:13px}.cv-subtitle{font-size:12px}}
 @media print{.paper .paper-title{font-size:15px}.cv-record h3{font-size:12px}.cv-detail,.cv-bullets,.cv-subtitle,.skills-list dd,.patent-list,.paper-authors,.paper-venue{font-size:10px}}
+
+.profile-address{display:block;font-style:normal;line-height:1.75;margin-top:8px}.hero-copy>h1:first-child{margin-top:0}
