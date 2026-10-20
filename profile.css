@@ -101,11 +101,27 @@ h1{font-size:clamp(44px,5.4vw,66px);line-height:1.12;letter-spacing:-.045em;marg
 @media print{.cv-heading{font-size:16px;margin-bottom:10px}.cv-record{grid-template-columns:120px 1fr;gap:15px;padding:12px 0;break-inside:avoid}.cv-record h3{font-size:12px}.cv-detail,.cv-subtitle,.cv-bullets{font-size:10px;line-height:1.6}.cv-date{font-size:9px}.skills-list>div{padding:10px 0;grid-template-columns:120px 1fr;gap:15px}.skills-list dd{font-size:10px}.cv-section:last-child{padding-bottom:15px}}
 
 /* Readable Arial text and consistent publication heading hierarchy. */
-.cv-date{font-size:12px}.cv-subtitle{font-size:13px}.cv-detail,.cv-bullets,.skills-list dd,.patent-list{font-size:14px}
-.cv-record h3{font-size:17px}.cv-research-details{font-size:13px}
-.paper .paper-title{font:400 21px/1.45 Arial,Helvetica,sans-serif;letter-spacing:-.015em;margin:0 0 9px}
-.paper-authors,.paper-venue{font-size:14px}
-@media(max-width:700px){.paper .paper-title{font-size:19px}.cv-record h3{font-size:16px}.cv-detail,.cv-bullets,.skills-list dd,.patent-list,.paper-authors,.paper-venue{font-size:13px}.cv-subtitle{font-size:12px}}
-@media print{.paper .paper-title{font-size:15px}.cv-record h3{font-size:12px}.cv-detail,.cv-bullets,.cv-subtitle,.skills-list dd,.patent-list,.paper-authors,.paper-venue{font-size:10px}}
+.paper .paper-title{font:400 22px/1.5 Arial,Helvetica,sans-serif;letter-spacing:-.015em;margin:0 0 10px}
+@media screen{
+  body{font-size:16px}
+  .cv-date{font-size:15px;line-height:1.8}
+  .cv-subtitle,.cv-research-details{font-size:15px}
+  .cv-detail,.cv-bullets,.skills-list dd,.paper-authors,.paper-venue{font-size:16px;line-height:1.85}
+  .cv-record h3{font-size:18px}
+  .skills-list dt{font-size:15px}
+  .profile-role{font-size:16px}.affiliation{font-size:14px}
+  .profile-links>a,.paper-link{font-size:15px}
+  .site-nav .nav-link{font-size:14px}
+  .footer-inner{font-size:13px}
+}
+@media screen and (max-width:700px){
+  .paper .paper-title{font-size:20px}
+  .cv-date{font-size:14px}.cv-record h3{font-size:17px}
+  .cv-detail,.cv-bullets,.skills-list dd,.paper-authors,.paper-venue{font-size:15px}
+  .cv-subtitle,.cv-research-details,.skills-list dt{font-size:14px}
+  .profile-role{font-size:15px}.affiliation{font-size:14px}
+  .profile-links>a,.paper-link{font-size:14px}
+}
+@media print{.paper .paper-title{font-size:15px}.cv-record h3{font-size:12px}.cv-detail,.cv-bullets,.cv-subtitle,.skills-list dd,.paper-authors,.paper-venue{font-size:10px}}
 
 .profile-address{display:block;font-style:normal;line-height:1.75;margin-top:8px}.hero-copy>h1:first-child{margin-top:0}
