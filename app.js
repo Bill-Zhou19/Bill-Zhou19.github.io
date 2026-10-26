@@ -39,6 +39,7 @@
     menuButton.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
   });
   nav.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
+  document.querySelectorAll('.shortcut-link').forEach(link => link.addEventListener('click', closeMenu));
   document.addEventListener('keydown', event => {
     if (event.key === 'Escape' && nav.classList.contains('is-open')) {
       closeMenu();
@@ -68,15 +69,16 @@
     count.textContent = `${visible} ${visible === 1 ? 'project' : 'projects'}`;
   }));
 
-  const links = [...document.querySelectorAll('.nav-link')];
-  const sections = links.map(link => document.querySelector(link.getAttribute('href')));
+  const links = [...document.querySelectorAll('.nav-link, .shortcut-link')];
+  const linkedSections = new Set(links.map(link => link.hash.slice(1)));
+  const sections = [...document.querySelectorAll('main section[id]')].filter(section => linkedSections.has(section.id));
   let scheduled = false;
   function updateNavigation() {
-    let current = sections[0];
+    let current = null;
     for (const section of sections) if (section.getBoundingClientRect().top <= 160) current = section;
     if (window.scrollY > 200 && window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 35) current = sections[sections.length - 1];
     links.forEach(link => {
-      const active = link.hash === `#${current.id}`;
+      const active = current !== null && link.hash === `#${current.id}`;
       link.classList.toggle('active', active);
       if (active) link.setAttribute('aria-current', 'location');
       else link.removeAttribute('aria-current');
